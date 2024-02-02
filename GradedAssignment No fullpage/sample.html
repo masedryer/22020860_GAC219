@@ -1,0 +1,35 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text to Speech</title>
+  </head>
+  <body>
+    <button id="startButton">Start Text to Speech</button>
+    <div id="output"></div>
+
+    <script>
+      const startButton = document.getElementById("startButton");
+      const output = document.getElementById("output");
+
+      // Check if browser supports SpeechSynthesis
+      if ("speechSynthesis" in window) {
+        startButton.addEventListener("click", () => {
+          const text = "This is the text that will be spoken.";
+          const utterance = new SpeechSynthesisUtterance(text);
+
+          // Speak the text
+          speechSynthesis.speak(utterance);
+
+          // Display the spoken text in the output div
+          output.textContent = "Speaking: " + text;
+        });
+      } else {
+        output.textContent = "Speech synthesis not supported in this browser.";
+      }
+    </script>
+  </body>
+</html>

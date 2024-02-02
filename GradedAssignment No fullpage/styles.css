@@ -1,0 +1,232 @@
+body {
+  background-color: #f8f9fa; /* Bootstrap background color */
+  font-family: "Roboto", sans-serif;
+}
+
+.navbar {
+  background-color: peachpuff; /* Bootstrap primary color */
+  border-bottom: 1px solid peachpuff; /* Bootstrap primary color - darker shade */
+}
+
+.navbar-brand img {
+  max-height: 80px; /* Adjust the height as needed */
+  padding-right: 1200px;
+  margin-left: 100px;
+}
+nav {
+  margin-top: 0;
+}
+
+.navbar-brand,
+.navbar-nav a {
+  color: black;
+}
+
+.navbar-toggler-icon {
+  background-color: #fff;
+}
+
+.navbar-toggler {
+  border-color: #fff;
+}
+
+.navbar-toggler:hover,
+.navbar-toggler:focus {
+  background-color: #ff9966;
+}
+.nav-link {
+  font-size: 20px;
+}
+.navbar-nav {
+  margin-right: auto;
+}
+i {
+  padding-right: 5px;
+}
+
+.input-group {
+  margin-top: 30px;
+}
+
+.input-group-append button {
+  background-color: peachpuff; /* Change button color to peach */
+  border-color: peachpuff; /* Change button border color to peach */
+  color: #fff; /* Button text color */
+}
+
+.input-group-append button:hover {
+  background-color: #ff9966; /* Change button color on hover */
+  border-color: #ff9966; /* Change button border color on hover */
+}
+
+/* Custom class for button color */
+.btn-peach {
+  background-color: peachpuff;
+  border-color: peachpuff;
+  color: black;
+}
+
+.btn-peach:hover {
+  background-color: #ff9966;
+  border-color: #ff9966;
+  color: #fff;
+}
+.card {
+  max-width: 250px;
+}
+body.dark-mode table,
+body.dark-mode th,
+body.dark-mode td {
+  color: #000; /* Black text color */
+}
+.card-img-top {
+  max-height: 300px; /* Adjust the maximum height of the card image */
+  object-fit: cover; /* Scale the image while maintaining its aspect ratio */
+}
+body.dark-mode #bookModal .modal-body {
+  color: black;
+}
+body.dark-mode #bookModal .modal-title {
+  color: black;
+}
+
+.card-footer {
+  text-align: center; /* Center the button within the card */
+}
+#inventoryTable {
+  table-layout: fixed;
+}
+.table-peachpuff tbody tr:nth-child(odd) {
+  background-color: peachpuff;
+}
+
+.navbar-brand img {
+  max-height: 80px;
+}
+footer {
+  background-color: #fbd4c1; /* Peachpuff */
+  text-align: center;
+  padding: 10px;
+}
+
+footer a {
+  text-decoration: none;
+  color: inherit;
+}
+body.dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.btn-dark-mode {
+  background-color: #333;
+  color: #fff;
+}
+#modalBody.dark-mode {
+  color: black;
+}
+.table-peachpuff tbody tr:nth-child(odd) {
+  background-color: peachpuff;
+}
+
+/* Additional CSS for responsiveness */
+.card-img-top {
+  height: 550px;
+}
+@media (max-width: 576px) {
+  .navbar-brand img {
+    min-height: 60px;
+  }
+}
+.card {
+  max-width: 250px;
+  transition: transform 0.3s, box-shadow 0.3s; /* Add transition for smoother animation */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Increase size of card on hover */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow on hover */
+}
+.footer {
+  background-color: #fbd4c1; /* Peachpuff */
+  text-align: center;
+  padding: 10px;
+}
+
+.social-links {
+  margin-bottom: 10px;
+}
+
+.social-link {
+  display: inline-block;
+  margin-right: 10px;
+  color: #fff;
+  background-color: #333;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.social-link:hover {
+  background-color: #ff9966; /* Change background color on hover */
+}
+
+.contact-info {
+  margin-bottom: 20px;
+}
+
+.sitemap-links {
+  margin-bottom: 10px;
+}
+
+.sitemap-link {
+  margin-right: 10px;
+  color: #333;
+  text-decoration: none;
+}
+
+.sitemap-link:hover {
+  text-decoration: underline;
+}
+.modal-content {
+  background-color: #fefefe; /* White background */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.modal-header {
+  background-color: #ff9966; /* Blue header */
+  color: black; /* White text */
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.modal-title {
+  margin-bottom: 0;
+}
+
+.modal-body {
+  padding: 20px;
+}
+
+#author {
+  font-weight: bold;
+}
+
+#description {
+  color: #555; /* Dark gray text */
+}
+
+.btn-close {
+  color: #fff; /* White close button */
+}
+.section-title {
+  color: #333; /* Change the color to your preference */
+  font-size: 2em; /* Adjust the font size as needed */
+  border-bottom: 2px solid #ff9966; /* Add a border at the bottom to separate sections */
+  padding-bottom: 10px; /* Add some padding at the bottom for spacing */
+  margin-bottom: 20px; /* Add margin at the bottom to create space between sections */
+}
